@@ -1,0 +1,634 @@
+
+/* First Navbar (Cafe Names & Login) */
+.first-navbar {
+    background-color: #e8e8e8;
+    padding: 0;
+}
+
+.first-navbar .nav-item {
+    position: relative;
+    margin: 0;
+}
+
+.first-navbar .nav-link {
+    font-family: 'CircularPro', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0.75rem 1rem;
+    color: #333;
+    text-align: center;
+    border-right: solid 0.4px #fff;
+    display: block;
+    height: 100%;
+    line-height: 1.5;
+}
+
+.first-navbar .login-link {
+    border-right: none;
+}
+
+.first-navbar .nav-link.login-link:hover {
+    background-color: transparent;
+    transition: color 0.3s ease;
+}
+
+.first-navbar .nav-link:hover {
+    color: red;
+    background-color: #d3d3d3;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.first-navbar .nav-link.active {
+    color: red;
+    background-color: #fff;
+}
+
+.first-navbar .navbar-nav {
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
+
+.first-navbar .navbar {
+    padding: 0;
+    margin: 0;
+}
+
+/* Second Navbar (CafeAPP Logo & Menu) */
+.second-navbar {
+    background-color: white;
+    padding: 1rem;
+    border-bottom: 1px solid #e8e8e8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.second-navbar .navbar-brand {
+    font-family: 'Figtree', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.second-navbar .nav-link {
+    font-family: 'CircularPro', Arial, sans-serif;
+    font-size: 1rem;
+        font-weight: 700;
+        margin-left: 1.5rem;
+        color: #333434;
+}
+
+.second-navbar .nav-link:hover,
+.second-navbar .nav-link.active {
+    color: #333434;
+    border-bottom: 0.25rem solid #333434;
+}
+
+/* HERO AND TODAY'S OFFER SECTION */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    height: 70vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    color: white;
+    text-align: left;
+}
+
+.left-content h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-content p {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: #FFD700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.d-flex {
+    flex-wrap: nowrap;
+}
+
+.special-offer-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: right;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.offer-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offer-card:hover {
+    transform: scale(1.05);
+}
+
+.offer-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.btn-view-more {
+    background-color: #FFD700;
+    color: #fff;
+    padding: 12px 20px;
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+
+.btn-view-more:hover {
+    background-color: transparent;
+    color: #FFD700;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+.d-flex {
+    flex-wrap: nowrap;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #333434;
+}
+
+.footer-title {
+    color: red;
+}
+
+.footer-link {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    color: #e7e7e7;
+    line-height: 2.29;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #FFD700;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #e7e7e7;
+}
+
+.social-icons a:hover {
+    color: #FFD700;
+}
+
+
+
+/* EACH CAFE */
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+.menu-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    transition: box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.border {
+    border: 1px solid #dee2e6;
+}
+
+h4,
+h5 {
+    color: #343a40;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.reviews-section h4 {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.total-reviews {
+    font-size: 0.9rem;
+    color: #888;
+    margin-left: 0.5rem;
+}
+
+.rating {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+
+.review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+}
+
+.review-item:last-child {
+    border-bottom: none;
+}
+
+.review-text,
+.review-rating,
+.review-meta {
+    margin: 0;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #444;
+}
+
+.review-rating {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.review-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.review-author {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.review-date {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #666;
+    text-align: right;
+}
+
+.see-more-link {
+    display: block;
+    text-align: right;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.see-more-link:hover {
+    text-decoration: underline;
+}
+
+
+/* General Styling */
+#kamsis h3,
+#kamsis h4 {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#kamsis .menu-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#kamsis .menu-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+#kamsis img {
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Today's Offer Section */
+#kamsis .menu-item .badge {
+    font-size: 0.85rem;
+}
+
+#kamsis .menu-item h5 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+#kamsis .menu-item p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #7f8c8d;
+}
+
+
+/* Price Styling */
+#kamsis .price-slash {
+    text-decoration: line-through;
+    color: #7f8c8d;
+}
+
+#kamsis .price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #27ae60;
+    /* Green color for the discounted price */
+}
+
+#kamsis .discount-badge {
+    font-size: 0.8rem;
+    /* Adjust the size as needed */
+    padding: 0.2em 0.4em;
+    /* Optional: adjust padding for a better look */
+}
+
+#kamsis .menu-description {
+    font-size: 0.9rem;
+    color: #95a5a6;
+    font-style: italic;
+}
+
+/* Custom Tabs Styling */
+#menuTabs .nav-link {
+    border-radius: 30px;
+    padding: 8px 20px;
+    color: #555;
+    transition: background-color 0.3s ease;
+}
+
+#menuTabs .nav-link.active {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+#menuTabs .nav-link:hover {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #kamsis h4 {
+        font-size: 1.2rem;
+    }
+
+    #kamsis .menu-item {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    #kamsis .menu-item img {
+        width: 80px;
+    }
+
+    #kamsis .menu-item h5 {
+        font-size: 1rem;
+    }
+
+    #kamsis .price,
+    #kamsis .discount-price {
+        font-size: 1rem;
+    }
+}
+
+
+#user-reviews {
+    background-color: #f9f9f9;
+    /* Light gray background for the section */
+    border-radius: 5px;
+    /* Rounded corners for the section */
+    padding: 30px;
+    /* Padding around the entire section */
+}
+
+#user-reviews h2 {
+    font-size: 2.5rem;
+    /* Larger font size for the heading */
+    color: #333;
+    /* Dark color for the heading */
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    /* Light blue background for the alert */
+    color: #0c5460;
+    /* Darker color for alert text */
+    border-color: #bee5eb;
+    /* Border color for alert */
+}
+
+.nav-tabs .nav-link {
+    color: #007bff;
+    /* Default color for tab links */
+    font-size: 1.1rem;
+    /* Slightly larger font size for tabs */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    /* Active tab color */
+    color: #fff;
+    /* Active tab text color */
+}
+
+#user-reviews .review-item {
+    background-color: #fff;
+    /* White background for review items */
+    border: 1px solid #e0e0e0;
+    /* Light border for review items */
+    transition: box-shadow 0.3s;
+    /* Transition for shadow effect */
+}
+
+#user-reviews .review-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Shadow effect on hover */
+}
+
+#user-reviews .review-item h6 {
+    font-size: 1.2rem;
+    /* Font size for username */
+    color: #343a40;
+    /* Darker color for username */
+}
+
+#user-reviews .review-item p {
+    margin: 0.5rem 0;
+    /* Margin for paragraphs in review items */
+}
+
+.btn-link {
+    color: #007bff;
+    /* Button link color */
+    font-size: 0.9rem;
+    /* Font size for buttons */
+        text-decoration: auto;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+
+
+#contact-us {
+    background-color: #f8f9fa;
+    /* Light background */
+    padding: 40px 0;
+    /* Spacing */
+}
+
+#contact-us h2 {
+    font-size: 2.5rem;
+    /* Big title */
+    color: #343a40;
+    /* Dark color */
+}
+
+#contact-us h4 {
+    color: #007bff;
+    /* Blue color for subheadings */
+}
+
+#contact-us .card {
+    border: none;
+    /* Remove default border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+}
+
+#contact-us .card-title {
+    font-size: 1.25rem;
+    /* Slightly larger title */
+    color: #333;
+    /* Dark color for titles */
+}
+
+#contact-us .card-text {
+    color: #666;
+    /* Grey color for text */
+}
+
+#contact-us .alert {
+    font-size: 1.1rem;
+    /* Slightly larger font for alert */
+}
+
+#contact-us .alert-link {
+    font-weight: bold;
+    /* Make link bold */
+    color: #007bff;
+    /* Blue link color */
+}
