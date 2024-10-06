@@ -1,0 +1,10 @@
+CRITICAL - 2024-10-06 15:07:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "staff/cafe-menu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/cafe-menu.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('staff/cafe-menu', [], true)
+ 3 APPPATH\Controllers\StaffController.php(43): view('staff/cafe-menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\StaffController->cafemenu()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\cafeapp\\public\\index.php')

@@ -1,0 +1,30 @@
+CRITICAL - 2024-09-23 02:43:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/_layouts/add-admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/_layouts/add-admin.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/_layouts/add-admin', [], true)
+ 3 APPPATH\Controllers\AdminController.php(34): view('admin/_layouts/add-admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->add_admin()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\cafeapp\\public\\index.php')
+CRITICAL - 2024-09-23 04:59:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/staff_list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/staff_list.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/staff_list', [], true)
+ 3 APPPATH\Controllers\AdminController.php(52): view('admin/staff_list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->stafflist()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\cafeapp\\public\\index.php')
+CRITICAL - 2024-09-23 05:00:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/student_list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/student_list.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/student_list', [], true)
+ 3 APPPATH\Controllers\AdminController.php(79): view('admin/student_list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->studentlist()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\cafeapp\\public\\index.php')
